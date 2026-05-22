@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-hello-world
+spec:
+  revisionHistoryLimit: 1
+  template:
+    spec:
+      serviceAccountName: s3-role
+      terminationGracePeriodSeconds: 15
+      imagePullSecrets:
+        - name: code-il2-pull-creds
+      containers:
+        - name: python-hello-world
+          image: hello-world/python-hello-world
+          imagePullPolicy: Always
