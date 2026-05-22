@@ -6,5 +6,5 @@ resources:
 
 images:
 - name: hello-world/python-hello-world
-  newName: registry1.dso.mil/ironbank/opensource/nginx/nginx
-  newTag: 1.27.3
+  newName: btanusi8/interview-prep
+  newTag: c888e9bfd6c12943d4f2c9397001205f7a7ac147
