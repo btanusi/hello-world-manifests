@@ -7,4 +7,4 @@ resources:
 images:
 - name: hello-world/python-hello-world
   newName: btanusi8/interview-prep
-  newTag: 2fce438e4c5dbe18e41936b4ec58bef1b8b5e9ff
+  newTag: 11a48b13f37262c2db0d69aec6cc5cad8c9f626e
